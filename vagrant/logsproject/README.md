@@ -16,15 +16,16 @@ The Python program is written using Python 3.7.0.
 
 It assumes you have installed a virtual machine (VM) using VirtualBox and 
 Vagrant, as described by the course 
-[here](https://classroom.udacity.com/nanodegrees/nd004/parts/51200cee-6bb3-4b55-b469-7d4dd9ad7765/modules/c57b57d4-29a8-4c5f-9bb8-5d53df3e48f4/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0).
+<a href="https://classroom.udacity.com/nanodegrees/nd004/parts/51200cee-6bb3-4b55-b469-7d4dd9ad7765/modules/c57b57d4-29a8-4c5f-9bb8-5d53df3e48f4/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0" target="_blank">here</a>.
 
 It also assumes that you have set up the project **news** PostgreSQL database, 
 provided by the course
-[here](https://classroom.udacity.com/nanodegrees/nd004/parts/51200cee-6bb3-4b55-b469-7d4dd9ad7765/modules/c57b57d4-29a8-4c5f-9bb8-5d53df3e48f4/lessons/bc938915-0f7e-4550-a48f-82241ab649e3/concepts/a9cf98c8-0325-4c68-b972-58d5957f1a91).
+<a href="https://classroom.udacity.com/nanodegrees/nd004/parts/51200cee-6bb3-4b55-b469-7d4dd9ad7765/modules/c57b57d4-29a8-4c5f-9bb8-5d53df3e48f4/lessons/bc938915-0f7e-4550-a48f-82241ab649e3/concepts/a9cf98c8-0325-4c68-b972-58d5957f1a91" target="_blank">here</a>.
 The program only relies on the original database objects;
 there are no database customizations such as views.
 
-Once your VM is set up, drop the **news.py** file in your **vagrant** directory.
+Once your VM and database are set up,
+drop the **news.py** file in your **vagrant** directory.
 
 ## Running The Program
 
