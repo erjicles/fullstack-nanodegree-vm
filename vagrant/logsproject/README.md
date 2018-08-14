@@ -41,7 +41,8 @@ or
 python3 news.py
 ```
 
-The program will output the answers to the three project questions below.
+The program will output the answers to the three project questions below. The
+results are provided in the **results.txt** file.
 
 ## Questions
 
