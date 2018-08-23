@@ -1,0 +1,13 @@
+https://maps.googleapis.com/maps/api/geocode/json?key=<API_KEY>
+
+https://maps.googleapis.com/maps/api/geocode/json?address=Tokyo%2c%20Japan&key=<API_KEY>
+https://maps.googleapis.com/maps/api/geocode/json?address=Jakarta%2c%20Indonesia&key=<API_KEY>
+https://maps.googleapis.com/maps/api/geocode/json?Maputo%2c%20Mozambique&key=<API_KEY>
+https://maps.googleapis.com/maps/api/geocode/json?Geneva%2c%20Switzerland&key=<API_KEY>
+https://maps.googleapis.com/maps/api/geocode/json?address=Los%20Angeles%2c%20California%2c%20USA&key=<API_KEY>
+
+curl -s https://maps.googleapis.com/maps/api/geocode/json?address=Tokyo%2c%20Japan&key=<API_KEY>
+curl -s https://maps.googleapis.com/maps/api/geocode/json?address=Jakarta%2c%20Indonesia&key=<API_KEY>
+curl -s https://maps.googleapis.com/maps/api/geocode/json?address=Maputo%2c%20Mozambique&key=<API_KEY>
+curl -s https://maps.googleapis.com/maps/api/geocode/json?address=Geneva%2c%20Switzerland&key=<API_KEY>
+curl -s https://maps.googleapis.com/maps/api/geocode/json?address=Los%20Angeles%2c%20California%2c%20USA&key=<API_KEY>
