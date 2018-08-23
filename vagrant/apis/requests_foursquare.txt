@@ -1,0 +1,52 @@
+curl -s -X GET -G \
+  'https://api.foursquare.com/v2/venues/search' \
+    -d client_id="CLIENT_ID" \
+    -d client_secret="CLIENT_SECRET" \
+    -d v=20180822 \
+    -d ll="40.7243,-74.0018" \
+    -d query="coffee" \
+    -d limit=1
+    
+Pizza
+Mountain View, California (37.392971, -122.076044)
+curl -s -X GET -G \
+  'https://api.foursquare.com/v2/venues/search' \
+    -d client_id="CLIENT_ID" \
+    -d client_secret="CLIENT_SECRET" \
+    -d v=20180822 \
+    -d ll="37.392971,-122.076044" \
+    -d query="Pizza" \
+    -d limit=1
+
+Sushi
+Miami, Florida (25.773822, -80.237947)
+curl -s -X GET -G \
+  'https://api.foursquare.com/v2/venues/search' \
+    -d client_id="CLIENT_ID" \
+    -d client_secret="CLIENT_SECRET" \
+    -d v=20180822 \
+    -d ll="25.773822,-80.237947" \
+    -d query="Sushi" \
+    -d limit=1
+
+Donuts
+Washington, DC (38.897478, -77.000147)
+curl -s -X GET -G \
+  'https://api.foursquare.com/v2/venues/search' \
+    -d client_id="CLIENT_ID" \
+    -d client_secret="CLIENT_SECRET" \
+    -d v=20180822 \
+    -d ll="38.897478,-77.000147" \
+    -d query="Donuts" \
+    -d limit=1
+
+Salad
+New York, New York (40.768349, -73.96575)
+curl -s -X GET -G \
+  'https://api.foursquare.com/v2/venues/search' \
+    -d client_id="CLIENT_ID" \
+    -d client_secret="CLIENT_SECRET" \
+    -d v=20180822 \
+    -d ll="40.768349,-73.96575" \
+    -d query="Salad" \
+    -d limit=1
